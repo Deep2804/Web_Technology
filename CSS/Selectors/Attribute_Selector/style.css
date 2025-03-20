@@ -1,0 +1,26 @@
+section[name="sec1"]{
+    background-color: aqua;
+}
+
+/* either exact or followed by hyphen */
+section[name|="sec"]{
+    background-color: greenyellow;
+}
+/* either exact or space separated value */
+article[name ~="my"]{
+    background-color: blue;
+}
+/* either exact or it should start with given value*/
+nav[name^="n"]{
+    background-color: orange;
+}
+
+/* either exact or it should end with given value*/
+footer[name$="er"]{
+    background-color: darkviolet;
+}
+
+/* either exact or it should be between in given value*/
+main[name*="Content"]{
+    background-color: crimson;
+}
