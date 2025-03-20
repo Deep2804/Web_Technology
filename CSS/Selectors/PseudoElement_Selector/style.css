@@ -1,0 +1,30 @@
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+p::first-line{
+    color: aqua;
+}
+
+p::selection{
+    background-color: crimson;
+    color: rgb(22, 235, 61);
+}
+
+ol>li::marker{
+    color: rgb(39, 125, 199);
+}
+
+::marker{
+    color: aqua;
+}
+
+h1::after{
+    content:"😎";
+    font-size: 32px;
+}
+
+h1::before{
+    content:"Hello";
+}
