@@ -1,0 +1,15 @@
+section div{
+    background-color: greenyellow;
+}
+
+section>div{
+    background-color: red;
+}
+
+section+div{
+    background-color: aqua;
+}
+
+section~div{
+    background-color: blue;
+}
