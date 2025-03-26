@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend>Fill this Form</legend>
+        <form>
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter Username"
+            />
+            <br />
+            <br />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email id"
+            />
+            <br /><br />
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              minlength="5"
+              maxlength="10"
+              placeholder="Enter Password"
+            />
+            <br /><br />
+            <label for="phoneno">Phone No.:</label>
+            <input
+              type="tel"
+              name="phoneno"
+              id="phoneno"
+              placeholder="Enter Phone No"
+            />
+            <br /><br />
+      
+            <label for="gender"
+              >Gender
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+            </label>
+            <br /><br />
+      
+            <label for="dob">D.O.B</label>
+            <input
+              type="date"
+              name="dob"
+              id="dob"
+              min="2016-01-01"
+              max="2030-12-31"
+            />
+            <br /><br />
+      
+            <label for="city">City</label>
+            <select name="city" id="city">
+              <option value="select">Select Option</option>
+              <option value="Noida">Noida</option>
+              <option value="NewDelhi">New delhi</option>
+              <option value="GreaterNoida">Greater Noida</option>
+              <option value="Gurugram">Gurugram</option>
+            </select>
+            <br /><br />
+            <label for="hobbies">Hobbies</label>
+      
+            <input type="checkbox" name="hobbies" id="cricket" />
+            <label for="cricket">Cricket</label>
+      
+            <input type="checkbox" name="hobbies" id="football" />
+            <label for="cricket">Football</label>
+      
+            <input type="checkbox" name="hobbies" id="dancing" />
+            <label for="cricket">Dancing</label>
+      
+            <input type="checkbox" name="hobbies" id="singing" />
+            <label for="cricket">Singing</label>
+            <br /><br />
+      
+            <label for="favCol">Favourite Color:</label>
+            <input type="color" name="favCol" id="favCol" />
+            <br /><br />
+      
+            <label for="resume">Upload File:</label>
+            <input type="file" name="resume" id="resume" multiple />
+            <br /><br />
+            <input type="submit" name="" id="" />
+          </form>
+    </fieldset>
+  </body>
+</html>

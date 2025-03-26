@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <H2>Registration Form</H2>
+    <fieldset>
+        <legend>Fill this Form</legend>
+        
+        <form>
+            <table>
+                <tr>
+                   <td><label for="username">Username:</label></td>
+                   <td><input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Enter Username"
+                    /></td> 
+                </tr>
+            
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Email id"
+                    /></td>
+            </tr>
+            
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input
+                    type="password"
+                    name="password"
+                    id="password"
+                    minlength="5"
+                    maxlength="10"
+                    placeholder="Enter Password"
+                    /></td>
+            </tr>
+              
+              <tr>
+                <td><label for="phoneno">Phone No.:</label></td>
+                <td><input
+                    type="tel"
+                    name="phoneno"
+                    id="phoneno"
+                    placeholder="Enter Phone No"
+                    /></td>
+              </tr>
+              
+
+              <tr>
+                <td><label for="gender"
+                    >Gender</td>
+                <td><input type="radio" name="gender" id="male" value="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female" />
+                    <label for="female">Female</label>
+                </td>
+              </tr>
+           
+            
+            <tr>
+                <td><label for="dob">D.O.B</label></td>
+                <td><input
+                    type="date"
+                    name="dob"
+                    id="dob"
+                    min="2016-01-01"
+                    max="2030-12-31"
+                    /></td>
+            </tr>   
+            
+            
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><select name="city" id="city">
+                    <option value="select">Select Option</option>
+                    <option value="Noida">Noida</option>
+                    <option value="NewDelhi">New delhi</option>
+                    <option value="GreaterNoida">Greater Noida</option>
+                    <option value="Gurugram">Gurugram</option>
+                </select></td>
+            </tr>
+           
+
+            <tr>
+                <td><label for="hobbies">Hobbies</label></td>
+                <td><input type="checkbox" name="hobbies" id="cricket" />
+                    <label for="cricket">Cricket</label>
+                    
+                    <input type="checkbox" name="hobbies" id="football" />
+                    <label for="cricket">Football</label>
+                    
+                    <input type="checkbox" name="hobbies" id="dancing" />
+                    <label for="cricket">Dancing</label>
+                    
+                    <input type="checkbox" name="hobbies" id="singing" />
+                    <label for="cricket">Singing</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="favCol">Favourite Color:</label></td>
+                <td> <input type="color" name="favCol" id="favCol" /></td>
+            </tr>
+            
+            
+            <tr>
+                <td><label for="resume">Upload File:</label></td>
+                <td><input type="file" name="resume" id="resume" multiple /></td>
+            </tr>
+            
+            <tr>
+                <td><input type="submit" name="" id="" /></td>
+            </tr>
+            
+        </table>
+    </form>
+    </fieldset>
+</body>
+</html>
+
