@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #333650;
+    padding: 10px;
+    
+}
+.card>header{
+    height: 40px;
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.card>header>span:first-child{
+    margin-right: auto;
+}
+.card>header>span{
+    color: white;
+    
+
+}
+
+.card>figure{
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>figure>img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #15229a, #9d176a);
+}
+
+.card>h1{
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card>p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 10px;
+    color: gray;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.card>p:last-child{
+    color: white;
+    padding: 10px 70px;
+    text-transform: none;
+    
+}
+
+.card>.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.card button{
+    margin-top: 20px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background: linear-gradient(to right, #96691b, #4b12b6);
+    text-transform: capitalize;
+}
+.card>hr{
+    color: gainsboro;    
+}
+
+.card>.icon-container{
+    height: 150px;
+    width: 100%;   
+    display: flex;
+
+}
+
+.card>.icon-container>article{
+    height: 100%;
+    width: 33.33%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: space-evenly;
+}
+.card>.icon-container>article>figure{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(150, 19, 161);
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.card>.icon-container>article:first-of-type>figure{
+    background: linear-gradient(to right, #1f276b, #801068);
+}
+
+.card>.icon-container>article:nth-child(2)>figure{
+    background: linear-gradient(to right, #1f276b, #801068);
+}
+
+.card>.icon-container>article:nth-child(3)>figure{
+    background: linear-gradient(to right, #1f276b, #801068);
+}
+
+
+
+
+
+
