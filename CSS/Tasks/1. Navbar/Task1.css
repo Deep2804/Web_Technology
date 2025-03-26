@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: yellow;
+}
+
+nav>ul{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+nav>ul>li{
+    /* border: 1px solid red; */
+    margin: 15px;
+    padding: 5px 8px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+nav>ul>li:first-child{
+    margin-right: auto; 
+}
+
+nav>ul>li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+nav>ul>li:first-child:hover{
+    background-color: transparent;
+    color: black;
+}
