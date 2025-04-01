@@ -1,0 +1,52 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+main{
+    height: 50vh;
+    width: 50vw;
+    background-color: yellow;
+}
+
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color: darkorange;
+}
+
+.parent>.child{
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+}
+
+/* It depend on current element font-size */
+.container{
+    font-size: 100px;
+    height: 1em;
+    width: 1em;
+    background-color: blueviolet;
+}
+
+html{
+    font-size: 100px;
+}
+/* It depend on root element font-size */
+footer{
+    font-size: 100px;
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+}
+
+html{
+    --bgcolor:red;
+}
+
+footer{
+    height: 100px;
+    width: 100px;
+    background-color: var(--bgcolor);
+}
