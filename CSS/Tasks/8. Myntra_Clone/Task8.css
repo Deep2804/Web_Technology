@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 5px gainsboro;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav>.logo{
+    width: 10%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;    
+}
+nav>.logo>img{
+    height: 100%;
+    
+    
+}
+nav>.category{
+    
+    height: 100%;
+    width: 35%;
+    justify-content: space-evenly;
+}
+
+nav>.category>li{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+nav>.category>li>sup{
+    margin-bottom: 8px;
+    color: hotpink;
+    margin-left: 3px;
+}
+nav>.searchContainer{
+    height: 100%;
+    width: 42%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    
+}
+nav>.searchContainer>.searchBar{
+    height: 50%;
+    width: 80%;
+    border: 1px solid rgb(255, 253, 253);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f5f5f6;
+}
+nav>.searchContainer>.searchBar>input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+nav>.searchContainer>.searchBar>span{
+    padding: 5px;
+}
+.Search{
+    margin-top: 8px;
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+
+}
+
+nav>.menu{
+    height: 100%;
+    width: 12.25%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+
+.Account,.wish,.Bag{
+    height: 20px;
+    width: 20px;
+      
+}
+.Account{
+    margin-left: 3px;
+}
+.wish{
+    margin-left: 9px;
+}
+.Bag{
+     margin-right: 3px;   
+}
+
+
+.timer{
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right,);
+    text-align: center;
+    padding-top: 20px;
+}
+.timer>article>span{
+    font-size: 20px;
+    color: #fd476c;
+    padding-left: 5px;
+}
+.timer>article{
+    font-size: 15px;
+}
+
+.offer1{
+    height: 110px;
+    width: 100%;
+    background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/4b85b8ec-efb0-4e29-9a1b-f53fd751188e1727173118036-FLAT-500-off.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.banner{
+    height: 570px;
+    width: 100%;
+    display: flex;
+}
+.banner>aside{
+    height: 100%;
+    width: 50%;
+    /* border: 3px solid black; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner>.left{
+    background-image: url(https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/5fb00d88-b0fc-4f83-9c2b-1136e27bdbc91727199447886-DESKTOP-HP-BANNER_50-90-OFF_01.jpg);
+}
+.banner>.right{
+    background-image: url(https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/91b5de39-abe6-4629-bf0f-7aac2bcff3f01727199447856-DESKTOP-HP-BANNER_50-90-OFF_02.jpg);
+}
+
+.BankOffer{
+    height: 20px;
+    width: 100%;
+    background-color: yellow;
+
+}
+.BankOffer>.Allbank{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.BankOffer>.Allbank>img{
+    height: 20px;
+    width: calc(100% / 7);
+    
+}
+.offer2{
+    height: 110px;
+    width: 100%;
+    background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/cea83390-89c5-42c1-b478-8e3c8a2bfac11727172802763-Coupons-CORNER.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.Flat{
+    height: 165px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.Flat>aside{
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Flat>.left{
+    background-image: url(https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/1661c88c-f9f9-49ae-9e9d-9520fc53a3ef1727173193402-MYNTRA100.jpg);
+}
+
+.Flat>.right{
+    background-image: url(https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/d8792a34-d20f-48ca-9815-b43f7024549b1727173193427-MYNTRA200.jpg);
+}
+
+.Deal{
+    height: 124px;
+    width: 100%;
+    background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/500ec3f9-7983-4296-9006-d01d6dd23f751727172741549-OMG-Deals-1--1-.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.style{
+    height: 520px;
+    width: 100%;
+    display: flex;
+}
+.style>.MenStyle{
+    height: 100%;
+    width: 25%;
+    display: flex;
+}
+
+.CategorySpecial{
+    height: 124px;
+    width: 100%;
+    background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/5c51e061-3f02-497f-8998-59694ec79dd91727172802794-Category-Specials.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.MensWear{
+    height: 414px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.Cloth{
+    height: 850px;
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.download{
+    height: 288.56px;
+    width: 100%;
+    background-image: url(https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/9/24/e9df8d6a-68aa-42e2-804b-a3723fca7da41727172802734-More-Knockout-Offers-Waiting-.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+footer{
+    height: 3500px;
+    width: 100%;
+    padding: 30px 0px 40px;
+    background-color: #fafbfc;
+    
+}
+
+.footerSection1{
+    display: flex;
+    justify-content: center;
+}
+.footerContainer{
+    height: 425px;
+    width: 1080px;
+    margin: 0px 0px 24px;
+    
+    display: flex;
+    
+}
+.shopLinks{
+    width: 175px;
+    height: 425px;
+    padding: 0 20px 0 0;
+    
+}
+.shopLinks>ul{
+    list-style: none;
+    width: 155px;
+}
+
+.shopLinks>p{
+    height: 15px;
+    width: 155px;
+    color: #282C3F;
+    margin: 12px 0;
+    font-size: 12px;
+   
+}
+.shopLinks>ul>li{
+    height: 24px;
+    font-size: 15px;
+    padding: 0 0 5px;
+    color: #696B79;
+}
+
+.shopLinks>ul>li:first-child{
+    padding-top: 14px 0 5px;
+}
+
+.customerPolicy{
+    width: 162px;
+    height: 293px;
+     
+}
+
+.customerPolicy>ul{
+    list-style: none;
+}
+
+.customerPolicy>p{
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+.customerPolicy>ul>li{
+    height: 24px;
+    color: #696B79;
+    font-size: 15px;
+
+}
+
+.appExperience{
+    width: 380px;
+    height: 175px;
+    padding: 13px 20px 0px 0px;
+    font-size: 12px;
+    
+}
+.appExperience>p{
+    padding: 0px 0px 25px;
+    height: 44px;
+    margin: -3px 0px 0px;
+    color: #282C3F;
+}
+
+.Dowload-Option>img{
+    width: 140px;
+    height: 42px;
+    margin: 0px 10px 0px 0px;
+}
+
+.appExperience>.Touch{
+    font-size: 12px;
+    margin: 20px 0px 10px;
+    height: 19px;
+    width: 360px;
+    
+}
+
+.socialLinks{
+    display: flex;
+    justify-content:baseline;
+    gap: 18px;
+}
+
+.social{
+    height: 20px;
+    width: 20px;
+}
+
+.promises{
+    width: 250px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.original{
+    height: 42px;
+    width: 290px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 10px;  
+    
+}
+
+.original>img{
+    width: 48px;
+    height: 40px;
+    margin-right: 10px;
+}
+.original>p{
+    color: #696B79;
+    font-size: 16px;
+}
+.original>p>strong{
+    color: #282C3F;
+    font-size: 15px;
+    width: 122px;
+    height: 21px;
+}
+
+.fourteen{
+    height: 42px;
+    width: 290px;
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+.fourteen>img{
+    width: 48px;
+    height: 49px;
+    margin-right: 10px;
+    
+}
+
+.fourteen>p{
+    color: #696B79;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.fourteen>p>strong{
+    color: #282C3F;
+    font-size: 15px;
+}
+.footerSection2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.popularSearch{
+    height: 250px;
+    width: 1080px;
+    
+}
+.popularSearch>p{
+    color: #282C3F;
+    margin: -15px 0px 0px;
+    padding: 0px 10px 0px 0px;
+    font-size: 12px;
+    
+}
+.popularSearch>hr{
+    height: 1px;
+    color: #EAEAEC;
+    margin: 8px 0px;
+}
+
+.allItem{
+    width: 100%;
+    margin-top: 30px;
+    color: #696B79;
+    
+}
+
+.allItem>article{
+    
+    font-size: 0.864rem;
+    padding: 2px 3px 2px 1px;
+}
+
+.contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #94969F;
+    margin-bottom: 30px;
+}
+.contact>p>b{
+    color: #526CD0;
+}
+
+.footerSection3{
+    display: flex;
+    justify-content: center;    
+}
+
+.OfficeAddress{
+    height: 200px;
+    width: 1080px;
+    
+    margin: 30px 0px;
+    padding: 20px 0px 0px;
+}
+
+.OfficeAddress>p{
+    font-size:16px;
+    font-weight: 600;
+    
+}
+
+.Address{
+    height: 120px;
+    width: 100%;
+    
+    margin: 10px 0px 0px;
+    display: flex;
+    color: #94969F;
+    
+}
+
+.LeftAddress{
+    padding-top: 10px;
+    width: 70%;
+}
+
+.rightAddress{
+    padding-right: 30px;
+    width: 30%;
+    padding-top: 70px;  
+}
+
+.rightAddress>p>b{
+    color: #526CD0;
+}
+
+
+
+
+
+
