@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+.logoContainer{
+    padding-left: 40px; 
+    
+}
+.navContainer{
+    padding-right: 60px;
+    display: flex;
+    gap: 70px;
+}
+.bar{
+    display: none;
+    
+}
+.bar>img{
+    height: 20px;
+    width: 20px;
+}
+
+@media (max-width:425px){
+    .bar{
+        display: block;
+        height: 20px;
+        width: 20px;
+    }
+    .navContainer{
+        display: none;
+    }
+}
+
+.mainContainer{
+    height: 700px;  
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroSection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.mainItem{
+    height: 500px;
+    width: 600px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainItem>h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: navy;
+}
+
+.mainItem>h3{
+    font-size: 30px;    
+    margin-bottom: 30px;
+    color: darkorange;  
+}
+
+.mainItem>.aboutme{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #2506ad;
+    color: white;
+
+}
+.mainItem>.aboutme:hover{
+    box-shadow: 5px 5px 5px navy;
+    cursor: pointer;
+}
+
+.socialContainer{
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+.imageContainer{
+    height: 500px;
+    width: 500px;
+    border-radius: 20%;
+}
+
+.imageContainer>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.AboutSection{
+    height: 700px;
+    width: 100%;
+    background-color: #f7f7f7;
+   
+}
+
+.AboutHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 10px;
+}
+.AboutHeading>h1{
+   font-size: 40px;
+}
+.AboutHeading>img{
+    height: 45px;
+    width: 45px;
+}
+.ContentSection{
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.AboutImage{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+.DescriptionSection{
+    height: 400px;
+    width: 600px;
+    
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.DescriptionSection>h1{
+    font-size: 25px;
+}
+.DescriptionSection>h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.DescriptionSection>.AboutMe{
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+   
+}
+.DescriptionSection>.Email,.Place,.Resume{
+    font-size: 18px;
+    gap: 10px;
+}
+.Resume{
+    margin-top: 40px;
+    min-height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2506ad;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Resume:hover{
+    box-shadow: 5px 5px 5px navy;
+    cursor: pointer;
+}
+
+.Projects{
+    height: 850px;
+    width: 100%;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Projectheading{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.ProjectLogo{
+    height: 50px;
+    width: 50px;
+    color: red;
+    
+
+}
+.Projectheading>p{
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+.ProjectLists{
+    margin-top: 50px;
+    height: 75%;
+    width: 80%; 
+    border: 2px solid black;
+    
+}
+.ProjectContainer{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 10px;
+
+}
+
+.projectList{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white; 
+}
+
+.contact {
+    background: #e5ecfb;
+    height: 700px;
+}
+
+.contact>.heading{
+    padding-top: 40px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.contact .container {
+width: 1050px;
+height: 550px;
+background: #fff;
+border-radius: 1.5rem;
+margin: 2rem 10rem;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.contact .container .content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 2.5rem 2rem;
+}
+.contact .content .image-box {
+max-width: 40%;
+margin-left: 4rem;
+}
+.contact .content .image-box img {
+width: 100%;
+height: 30rem;
+
+}
+.contact .content form {
+width: 45%;
+margin-right: 3.5rem;
+}
+form .form-group {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.form-group .field {
+height: 50px;
+display: flex;
+
+margin: 1rem;
+width: 100%;
+}
+
+form .field input,
+form .message textarea {
+width: 100%;
+height: 100%;
+outline: none;
+padding: 0 15px 0 28px;
+font-size: 16px;
+border-radius: 5px;
+border: 1px solid rgb(51, 51, 51);
+background: #e5ecfb;
+}
+.field input::placeholder,
+.message textarea::placeholder {
+color: rgb(51, 51, 51);
+}
+.field input:focus,
+.message textarea:focus {
+padding-left: 27px;
+border: 2px solid rgb(115, 3, 167);
+}
+
+form .message {
+position: relative;
+margin: 1rem;
+width: 100%;
+}
+
+form .message textarea {
+min-height: 130px;
+max-height: 230px;
+max-width: 100%;
+min-width: 100%;
+padding: 12px 20px 0 28px;
+}
+
+form .button-area {
+display: flex;
+float: right;
+flex-direction: row-reverse;
+}
+.button-area button {
+color: #fff;
+border: none;
+outline: none;
+font-size: 1.8rem;
+cursor: pointer;
+border-radius: 5px;
+padding: 13px 25px;
+background: #2506ad;
+box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+transition: 0.3s ease;
+font-family: "Nunito", sans-serif;
+}
+.button-area button:hover {
+background: #421cecf5;
+}
+.button-area span {
+font-size: 17px;
+padding: 1rem;
+display: none;
+}
+
+.button-area button:hover {
+left: 8px;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 1, 43);
+}
+
