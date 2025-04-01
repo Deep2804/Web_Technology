@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: yellow;
+    padding: 5px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav>figure,ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav>ul{
+    list-style: none;
+    gap: 20px;
+    
+}
+nav>ul>li{
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.bar{
+    display: none;  
+}
+
+@media (max-width:425px){
+    .bar{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+}
+
+section{
+    min-height: calc(100vh - 70px);
+    width: 100%;        
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1,img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    background-color: pink;
+}
+.box2>h2{
+    margin: 10px;
+}
+.box2>p{
+    text-align: center;
+}
+.box2>button{
+    margin: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.box2>button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+    transition: all 0.3s;
+}
+
+@media (max-width:600px){
+    section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .box2{
+        margin-top: 20px;
+    }
+}
+
