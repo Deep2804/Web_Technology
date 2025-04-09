@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="PageLoad()">
+    <button onclick="clickfun()">Click</button>
+
+    <button ondblclick="clickDbl()">Click Here</button>
+
+    <button onmouseenter="Enter()" onmouseleave="Leave()">Mouse Enter</button>
+
+    <button onmouseleave="Leave()">Mouse Leave</button>
+
+    <section onmousemove="Move()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus cumque quo facilis suscipit tenetur nihil officia voluptatum voluptas nostrum nemo rem, quisquam, est sit accusantium repudiandae dolorem impedit autem. Culpa eum, enim velit, vitae consequatur itaque ad eius veritatis voluptas praesentium facere delectus. Quasi nisi voluptatibus ex voluptas similique adipisci!</section>
+
+    <input type="text" onkeypress="Down()" onkeyup="Up()">
+
+    <hr>
+
+    <input type="text" onchange="Change()">
+    <input type="text">
+
+
+    <hr>
+
+    <form onsubmit="FormData(event)">
+
+        <input type="text" placeholder="Email" id="email">
+        <br>
+        <input type="text" placeholder="Password" id="password">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p style="height: 100px; width: 300px; background-color: aqua; overflow-y: scroll;" onscroll="Scroll()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, perspiciatis iusto aperiam consequatur ex earum nihil nisi rerum natus dolorem excepturi itaque fugit delectus dolor commodi debitis, totam in unde nesciunt cum animi dolorum, odio reprehenderit perferendis. Illum voluptatibus nemo odio neque corporis excepturi recusandae ullam consectetur. Quas, molestiae dolorum.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
